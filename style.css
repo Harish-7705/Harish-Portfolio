@@ -764,6 +764,7 @@ nav a:hover {
   bottom: -15px;
   opacity: 0.3;
 }
+<<<<<<< HEAD
 
 /* Certificates Section */
 .certificates-grid {
@@ -879,3 +880,5 @@ nav a.active {
     padding: 1.5rem;
   }
 }
+=======
+>>>>>>> 8953e18c424f567ecf5f6228513d72cd80fa467c
