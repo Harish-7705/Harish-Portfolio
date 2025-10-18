@@ -102,8 +102,7 @@ nav a:hover {
   display: flex;
   align-items: center;
   overflow: hidden;
-}
-
+} 
 .hero-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -178,19 +177,7 @@ nav a:hover {
   opacity: 0.3;
 }
 
-.image-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(
-    45deg,
-    rgba(var(--primary-color-rgb), 0.2),
-    rgba(var(--secondary-color-rgb), 0.1)
-  );
-  pointer-events: none;
-}
+
 
 .profile-img img {
   width: 100%;
@@ -764,3 +751,4 @@ nav a:hover {
   bottom: -15px;
   opacity: 0.3;
 }
+
