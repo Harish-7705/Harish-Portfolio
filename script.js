@@ -236,3 +236,4 @@ document.querySelectorAll('nav a').forEach(link => {
     icon.classList.replace('fa-times', 'fa-bars');
   });
 });
+

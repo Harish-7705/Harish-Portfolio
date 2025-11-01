@@ -136,7 +136,7 @@ nav a:hover {
 
 /* Profile Image Styles */
 .profile-img {
-  border-radius: 30px;
+  border-radius: 500px;
   width: 400px;
   height: 400px;
   overflow: hidden;
@@ -720,10 +720,12 @@ nav a:hover {
 
 /* About Profile Image - Static */
 .about-profile {
-  border-radius: 10px;
+  border-radius: 20px;
   position: relative;
   transform: perspective(1000px) rotateY(10deg);
   transition: transform 0.5s ease;
+  width: 350px;
+  height: 400px;
 }
 
 .about-profile::after {
