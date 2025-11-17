@@ -289,6 +289,30 @@
       </div>
     </div>
   </section>
+  
+ <!-- Chatbot Toggle Button and Iframe -->
+<div id="chatbot-toggle-container"
+     style="position:fixed;bottom:32px;right:32px;z-index:10000;">
+  <!-- Circle Button -->
+  <button id="chatbot-toggle-btn"
+          style="width:56px;height:56px;border-radius:50%;background:#4D8DFF;border:none;box-shadow:0 2px 12px rgba(0,0,0,0.16);cursor:pointer;display:flex;align-items:center;justify-content:center;">
+    <span style="font-size:28px;color:white;">💬</span>
+  </button>
+</div>
+
+<!-- Hidden iframe by default -->
+<div id="chatbot-iframe-container"
+     style="display:none;position:fixed;bottom:100px;right:32px;z-index:10001;">
+  <iframe
+    src="https://www.chatbase.co/chatbot-iframe/8vE0O9pUs2zBMi3pQcDUH"
+    width="350"
+    height="500"
+    style="border:none;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,0.2);"
+    title="Chatbot"
+  ></iframe>
+</div>
+
+
 
   <footer class="footer">
     <div class="container">

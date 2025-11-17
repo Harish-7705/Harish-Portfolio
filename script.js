@@ -237,3 +237,12 @@ document.querySelectorAll('nav a').forEach(link => {
   });
 });
 
+
+  const btn = document.getElementById('chatbot-toggle-btn');
+  const iframeBox = document.getElementById('chatbot-iframe-container');
+  let chatbotOpen = false;
+
+  btn.onclick = function() {
+    chatbotOpen = !chatbotOpen;
+    iframeBox.style.display = chatbotOpen ? 'block' : 'none';
+  };
