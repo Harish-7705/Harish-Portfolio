@@ -119,7 +119,7 @@ document.querySelectorAll('.fade-in-section').forEach(section => {
 
 // Typewriter effect for hero section
 const typewriterText = document.querySelector('.typewriter');
-const phrases = ['UI/UX Designer', 'Frontend Developer'];
+const phrases = ['Fullstack Developer', 'Machine learning Developer'];
 let phraseIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
