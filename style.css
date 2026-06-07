@@ -102,7 +102,8 @@ nav a:hover {
   display: flex;
   align-items: center;
   overflow: hidden;
-} 
+}
+
 .hero-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -145,7 +146,7 @@ nav a:hover {
 }
 
 /* Hero Profile Image - Static Style (like About section) */
-.hero-profile { 
+.hero-profile {
   position: relative;
   transform: perspective(1000px) rotateY(10deg);
   transition: transform 0.5s ease;
@@ -356,16 +357,47 @@ nav a:hover {
 }
 
 /* Skill Logo Colors */
-.skill-item i.fa-html5 { color: #E34F26; }
-.skill-item i.fa-css3-alt { color: #1572B6; }
-.skill-item i.fa-js { color: #F7DF1E; }
-.skill-item i.fa-react { color: #61DAFB; }
-.skill-item i.fa-bootstrap { color: #7952B3; }
-.skill-item i.fa-python { color: #3776AB; }
-.skill-item i.fa-java { color: #007396; }
-.skill-item i.fa-figma { color: #F24E1E; }
-.skill-item i.fa-git-alt { color: #F05032; }
-.skill-item i.fa-code { color: #007ACC; } /* For C++ using VS Code blue */
+.skill-item i.fa-html5 {
+  color: #E34F26;
+}
+
+.skill-item i.fa-css3-alt {
+  color: #1572B6;
+}
+
+.skill-item i.fa-js {
+  color: #F7DF1E;
+}
+
+.skill-item i.fa-react {
+  color: #61DAFB;
+}
+
+.skill-item i.fa-bootstrap {
+  color: #7952B3;
+}
+
+.skill-item i.fa-python {
+  color: #3776AB;
+}
+
+.skill-item i.fa-java {
+  color: #007396;
+}
+
+.skill-item i.fa-figma {
+  color: #F24E1E;
+}
+
+.skill-item i.fa-git-alt {
+  color: #F05032;
+}
+
+.skill-item i.fa-code {
+  color: #007ACC;
+}
+
+/* For C++ using VS Code blue */
 
 /* Make logos slightly larger */
 .skill-item i {
@@ -404,6 +436,19 @@ nav a:hover {
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
+}
+
+.project-image--placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+}
+
+.project-image--placeholder i {
+  font-size: 4rem;
+  color: var(--primary-color);
+  opacity: 0.9;
 }
 
 .project-card:hover .project-image img {
@@ -567,6 +612,7 @@ nav a:hover {
 }
 
 @media (max-width: 992px) {
+
   .hero-grid,
   .about-grid,
   .contact-content {
@@ -753,4 +799,3 @@ nav a:hover {
   bottom: -15px;
   opacity: 0.3;
 }
-
