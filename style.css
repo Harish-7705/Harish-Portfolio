@@ -799,3 +799,28 @@ nav a:hover {
   bottom: -15px;
   opacity: 0.3;
 }
+
+/* Hero profile — slightly larger than About section */
+.hero-image .profile-img.about-profile {
+  width: 450px;
+  height: 520px;
+}
+
+.hero-image .profile-img img {
+  object-fit: cover;
+  object-position: center top;
+}
+
+@media (max-width: 992px) {
+  .hero-image .profile-img.about-profile {
+    width: 320px;
+    height: 380px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-image .profile-img.about-profile {
+    width: 280px;
+    height: 340px;
+  }
+}
